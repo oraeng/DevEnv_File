@@ -55,8 +55,8 @@ sudo apt install python-rosdep python-rosinstall python-rosinstall-generator pyt
 sudo apt-get install python-catkin-tools python-rosinstall-generator -y
 
 ## Create catkin workspace
-mkdir -p /root/catkin_ws/src
-cd /root/catkin_ws
+mkdir -p /root/ros1_ws/src
+cd /root/ros1_ws
 catkin init
 wstool init src
 
